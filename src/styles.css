@@ -1,0 +1,174 @@
+:root {
+    --primary-color: #fff1fd;
+    --border-color: rgba(224, 224, 224, 1);
+    --top-navbar-height: 64px
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/* .nav-logo:hover {
+    animation: logo-pulse 6s infinite;
+    animation-timing-function: ease-in-out;
+} */
+
+.logo-animation {
+    animation: logo-pulse 2s infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes logo-pulse {
+    0% {
+        width: 135px;
+        height: 135px;
+        opacity: 0.5;
+    }
+
+    50% {
+        width: 150px;
+        height: 150px;
+        opacity: 1;
+    }
+
+    /* 75% {
+        width: 135px;
+        height: 135px;
+        opacity: 0.5;
+    } */
+
+    100% {
+        width: 135px;
+        height: 135px;
+        opacity: 0.5;
+    }
+
+    /* 100% {
+        width: 25px;
+        height: 25px;
+        opacity: 0.3;
+    } */
+}
+
+.d-flex {
+    display: flex;
+}
+
+.w-25 {
+    width: 25%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.w-75 {
+    width: 75%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+.px-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.fw-bold {
+    font-weight: bold;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.ellipsis {
+    max-width: 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.header-btns-container {
+    display: flex;
+    column-gap: 20px;
+    margin-inline: 20px;
+}
+
+.header-btn-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-btn {
+    height: 40px;
+    width: 40px;
+}
+
+.opacity-5 {
+    opacity: 0.5;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+.imgTag {
+    width: 100%;
+    height: 100%;
+}
+
+.orderStatusPill {
+    max-width: 60px;
+    padding: 2px 6px;
+    border-radius: 15px;
+    margin-inline: auto;
+    color: white;
+    text-transform: capitalize;
+}
+
+.productImg:hover {
+    opacity: 0.7;
+}
+
+.css-2blr9s-MuiTableRow-root>* {
+    border-bottom: 1px solid var(--border-color) !important;
+}
+
+.addressColumn {
+    min-width: 50px;
+}
+
+.update-user-select-dropdown {
+    width: 35%;
+}
